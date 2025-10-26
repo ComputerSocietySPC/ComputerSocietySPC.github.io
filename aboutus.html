@@ -69,7 +69,7 @@
           Enoch Chang (Treasurer)<br><br>
           Toto Young (Secretary)<br><br>
           Sam Lee (Committee)<br><br>
-          Cyrus Lee<br><br>
+          Cyrus Lee (Committee)<br><br>
           Clifford Wu (Committee)</p>
   </div>
     
@@ -222,7 +222,7 @@ user-select:none;
 
 }
 .maindiv{
-  height:100%;
+  height:fit-content;
   width:100%;
   display:grid;
 
@@ -245,6 +245,7 @@ justify-items:center;
   min-height:380px;
   justify-items:center;
   align-items:center;
+  max-height: fit-content
   
 }
 
@@ -253,22 +254,27 @@ justify-items:center;
   display:flex;
   background-color:rgba(255, 255, 255, 0);
   width:100%;
-  min-height:380px;
   justify-items:center;
   align-items:center;
+  overflow-y: auto;
+  margin-bottom:1%;
+  height:fit-content;
+flex-wrap: wrap;
   
 }
 
 .maindiv3a{
 
-  display:grid;
+  display:flex;
   width:45%;
   margin-left:5%;
   min-height:200px;
    justify-items:center;
   align-items:center;
-  height:fit-content;
+  height:100%;
   color:white;
+  margin-bottom:5%;
+
   
 }
 
@@ -283,7 +289,9 @@ justify-items:center;
   text-align: center;
   height:fit-content;
   color:white;
-  
+  max-height: fit-content;
+margin-left:20%;
+width:fit-content;
   
 }
 .maindiv2a{
@@ -322,9 +330,11 @@ aspect-ratio: 2.7725/1;
 .maindiv3bimg{
 margin:0;
 padding:0;
-height:50%;
+margin-left:30%;
+height:90%;
+max-height:350px;
 aspect-ratio: 4/3;
-max-height:300px;
+
 
 }
 
